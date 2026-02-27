@@ -1,4 +1,7 @@
-# Trust Meter Introduction
+---
+title: Trust meter Introduction
+author: Clayton H. Lewis
+---
 
 --
 
