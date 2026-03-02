@@ -40,11 +40,11 @@ Mechanisms of statistical discrimination include:
 
 ## Definitions
 
-#### Example Trained -- "ET"
+### Example Trained -- "ET"
 
 > The AI tool training data is examples with predefined correct responses. A classification AI is an example of an ET tool.
 
-#### Foundation Based -- "FB"
+### Foundation Based -- "FB"
 
 > The AI tool is trained but not using specific examples. Instead, they are trained on vast amounts of text or media. An example of an FB is a Large Language Model (LLM).
 
