@@ -1,21 +1,22 @@
 # Generate documents in the desired output formats.
 
 # Identify source and target files.
+destination=dist/
 exclusions:=README.md
 sources:=$(filter-out $(exclusions), $(wildcard *.md))
-html_targets:=$(sources:.md=.html)
-pdf_targets:=$(sources:.md=.pdf)
-docx_targets:=$(sources:.md=.docx)
+html_targets:=$(patsubst %.md, $(destination)%.html, $(sources))
+pdf_targets:=$(patsubst %.md, $(destination)%.pdf, $(sources))
+docx_targets:=$(patsubst %.md, $(destination)%.docx, $(sources))
 
 # Options
 pandoc_options:=-s -N
 
 # Implicit rules
-%.html : %.md
+$(destination)%.html : %.md
 	pandoc $(pandoc_options) $< -o $@
-%.pdf : %.md
+$(destination)%.pdf : %.md
 	pandoc $(pandoc_options) $< -o $@
-%.docx : %.md
+$(destination)%.docx : %.md
 	pandoc $(pandoc_options) $< -o $@
 
 # Targets
