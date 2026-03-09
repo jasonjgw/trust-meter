@@ -24,26 +24,56 @@ Cheers, Clayton
 
 --
 
+## Problem
+
+In statistics, an outlier is "an observation that lies an abnormal distance from
+other values in a random sample from a population".[^1] Membership in one or
+more social groups that are subject to systemic discrimination can result in a
+person's being an outlier in information  provided to an artificial intelligence
+(AI) system. This outlier status is due not merely to the fact of group
+membership.  Rather, it should be understood as arising from the many respects
+in which the circumstances, history and life experiences of such a group members
+can differ from those of larger populations. If the AI system fails to respond
+appropriately to the individual's specific  situation as reflected in the data
+presented to it, there is a risk of amplifying or further perpetuating
+discrimination.
+
+The risk is greatest if the system is used directly or indirectly to make
+decisions affecting the person's human rights or other legal interests.  When
+differences of gender, race, ethnicity, socio-economic position, or disability,
+for example, become salient to the operation of AI systems due to the appearance
+of outliers in data, there thus emerges a heightened risk of discriminatory
+decisions. Established practices of social marginalization are reinforceed,
+contrary to moral obligations and human rights standards. 
+
+[^1]: NIST/SEMATECH e-Handbook of Statistical Methods, [section
+7.1.6](https://www.itl.nist.gov/div898/handbook/prc/section1/prc16.htm).
+
 ## Purpose
 
-The purpose of this note is to outline some of the potential problems for people
-with disabilities and those who support them posed by AI tools, and approaches
-to mitigating these problems. The focus is on problems that arise from people
-with disabilities being different, or represented as being different, from other
-people, rather than on the problem of bias, that arises when AI tools may embed
-biased attitudes about people with disabilities.
+The purpose of this note is to outline some of the potential problems for
+members of marginalized social groups posed by AI tools, and approaches to
+mitigating these problems. The focus is on problems that arise from a person's
+being different, or represented as being different, from other people, rather
+than on the problem of bias that arises when AI tools may embed biased attitudes
+about an individual due to salient group membership, such as having a specific
+gender, ethnicity, disability, or a combination thereof.
 
 ## Scope
 
 - The technical specification applies to machine‑learning‑based classification
-  systems used in decision‑making. - Generative and LLM‑based AI systems are out
+  systems used in decision‑making.
+  - It also applies to systems providing information or advice likely to
+      influence decisions.
+- Generative and LLM‑based AI systems are out
   of scope unless they form a component of a classification pipeline that
-  produces consequential decisions.
+  produces consequential decisions, or assemble information intended for use in
+  decision-making.
 - The guidance is non‑normative and intended to support implementers, operators,
   and reviewers.
-  - outlines concepts, risks, and mitigation strategies that can inform future
+- outlines concepts, risks, and mitigation strategies that can inform future
     standards.
-  - provides foundational guidance to support adoption but does not prescribe
+- provides foundational guidance to support adoption but does not prescribe
     conformance requirements
 
 ## Statistical Discrimination
