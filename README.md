@@ -7,5 +7,4 @@ Documentation is written in Pandoc Markdown. Pandoc and GNU Make are required to
 If TeX is not installed and PDF output is not considered necessary, you can run `make -k` to continue processing the makefile despite the failure of the PDF target.
 
 # Copyright
-The document maintained in this repository is copyright 2026 by the individual authors, and licensed to OCAD University pursuant to a *Contributor License Agreement*. It is distributed under the terms of the [Creative Commons Attribution ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license.
-
+The document maintained in this repository is copyright 2026 by OCAD University, and distributed under the terms of the [Creative Commons  ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
